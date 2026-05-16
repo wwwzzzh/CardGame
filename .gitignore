@@ -1,0 +1,27 @@
+# VS 生成文件
+.vs/
+Debug/
+Release/
+*.sdf
+*.suo
+*.user
+*.idb
+*.pdb
+
+# 编译输出
+out/
+proj.win32/Debug.win32/
+proj.win32/Release.win32/
+
+# Win32 编译产物
+*.exe
+*.dll
+*.lib
+*.obj
+build_log.txt
+
+# 临时文件
+pip_build_*/
+
+# cocos2d 引擎编译产物（保留源码）
+cocos2d/**/Debug.win32/
